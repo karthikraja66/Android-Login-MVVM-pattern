@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <import type="android.view.View" />
+
+    </data>
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_width="@dimen/element_width"
+            android:layout_height="@dimen/element_height"
+            android:layout_gravity="center"
+            android:background="@color/colorPrimaryDark"
+            app:touchListener="@{true}" />
+    </FrameLayout>
+</layout>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="contentText"
+            type="String" />
+
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/clMainLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/content_padding_xnormal"
+            android:layout_marginTop="@dimen/content_padding_xxlarge"
+            android:layout_marginRight="@dimen/content_padding_xnormal"
+            android:layout_marginBottom="@dimen/content_padding_xxlarge">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                app:cardCornerRadius="@dimen/content_padding_xnormal"
+                app:cardElevation="@dimen/element_spacing_small"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/element_spacing_medium"
+                    android:layout_marginTop="@dimen/content_padding_xnormal"
+                    android:layout_marginRight="@dimen/element_spacing_medium"
+                    android:orientation="vertical"
+                    android:padding="@dimen/element_spacing_medium">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/element_spacing_medium"
+                        android:layout_marginBottom="@dimen/element_spacing_medium"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tvContentText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:padding="@dimen/element_spacing_medium"
+                            android:text="@{contentText}"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <ImageView
+            android:layout_width="@dimen/content_padding_xxlarge"
+            android:layout_height="@dimen/content_padding_xxlarge"
+            android:background="@drawable/circle_selector_white"
+            android:padding="@dimen/element_spacing_xsmall"
+            app:layout_anchor="@id/clMainLayout"
+            app:layout_anchorGravity="top|center"
+            android:src="@drawable/ic_privacy_policy" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_anchor="@id/clMainLayout"
+            app:layout_anchorGravity="bottom|center">
+
+            <ImageView
+                android:id="@+id/ivClose"
+                android:layout_width="@dimen/content_padding_xlarge"
+                android:layout_height="@dimen/content_padding_xlarge"
+                android:layout_marginTop="@dimen/content_padding_xxlarge"
+                android:background="@drawable/circle_selector_white"
+                android:clickable="true"
+                android:elevation="@dimen/element_spacing_medium"
+                android:focusable="true"
+                android:padding="@dimen/element_spacing_medium"
+                android:src="@drawable/ic_close_black"
+                android:stateListAnimator="@null"
+                app:layout_anchor="@id/clMainLayout"
+                app:layout_anchorGravity="bottom|center" />
+        </LinearLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

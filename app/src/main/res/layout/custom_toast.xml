@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cvToastLayer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/element_spacing_medium"
+        app:cardCornerRadius="@dimen/content_padding_large"
+        app:cardElevation="@dimen/element_spacing_small">
+
+        <TextView
+            android:id="@+id/tvToastMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/oval_primary"
+            android:drawableStart="@drawable/ic_info"
+            android:drawablePadding="@dimen/element_spacing_medium"
+            android:gravity="center"
+            android:paddingStart="@dimen/content_padding_xnormal"
+            android:paddingTop="@dimen/element_spacing_medium"
+            android:paddingEnd="@dimen/content_padding_xnormal"
+            android:paddingBottom="@dimen/element_spacing_medium"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/font_size_xmedium" />
+    </androidx.cardview.widget.CardView>
+</layout>

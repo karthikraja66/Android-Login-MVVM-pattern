@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- font sizes -->
+    <dimen name="font_size_xtiny">8sp</dimen>
+    <dimen name="font_size_tiny">10sp</dimen>
+    <dimen name="font_size_xsmall">11sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_xnormal">13sp</dimen>
+    <dimen name="font_size_normal">14sp</dimen>
+    <dimen name="font_size_medium">15sp</dimen>
+    <dimen name="font_size_xmedium">18sp</dimen>
+    <dimen name="font_size_xxmedium">20sp</dimen>
+    <dimen name="font_size_large">22sp</dimen>
+    <dimen name="font_size_xlarge">35sp</dimen>
+    <dimen name="font_size_xxlarge">30sp</dimen>
+    <dimen name="font_size_xxxlarge">35sp</dimen>
+
+    <dimen name="element_no_space">0dp</dimen>
+    <dimen name="element_spacing_tiny">1.5dp</dimen>
+    <dimen name="element_spacing_xsmall">3dp</dimen>
+    <dimen name="element_spacing_small">5dp</dimen>
+    <dimen name="element_spacing_normal">8dp</dimen>
+    <dimen name="element_spacing_medium">10dp</dimen>
+    <dimen name="element_spacing_large">12dp</dimen>
+    <dimen name="element_spacing_xlarge">14dp</dimen>
+    <dimen name="content_padding_normal">16dp</dimen>
+    <dimen name="content_padding_xnormal">20dp</dimen>
+    <dimen name="content_padding_medium">25dp</dimen>
+    <dimen name="content_padding_large">32dp</dimen>
+    <dimen name="content_padding_xlarge">46dp</dimen>
+    <dimen name="content_padding_xxlarge">60dp</dimen>
+
+    <dimen name="element_width">20dp</dimen>
+    <dimen name="element_height">100dp</dimen>
+
+    <dimen name="element_spacing_collapsing">200dp</dimen>
+    <dimen name="element_spacing_collapsing_height">180dp</dimen>
+    <dimen name="element_spacing_collapsing_negative_30">-30dp</dimen>
+    <dimen name="element_spacing_collapsing_negative_20">-20dp</dimen>
+    <dimen name="element_spacing_card_radius">40dp</dimen>
+</resources>
