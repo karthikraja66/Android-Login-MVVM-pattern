@@ -3,7 +3,7 @@
 1. Sample login screen and validation.
 2. Vertical line that you can drag up and down.
 
-### Testing Creditials:
+### Testing Credentials:
 1. Username: test@gmail.com | Password: Welcome123
 2. Username: sample@gmail.com | Password: abcd1234
 3. Username: karthik@gmail.com | Password: 123456789
