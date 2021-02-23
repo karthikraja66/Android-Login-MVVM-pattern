@@ -11,5 +11,5 @@
 ### App Download link:
 [Download apk](https://github.com/karthikraja66/Android-login-MVVM-pattern/raw/main/app/app-release.apk)
 
-### App Screenshots
+### App Screenshots:
 ![](https://github.com/karthikraja66/Android-login-MVVM-pattern/blob/main/screenshots/1.jpg) ![](https://github.com/karthikraja66/Android-login-MVVM-pattern/blob/main/screenshots/2.jpg) ![](https://github.com/karthikraja66/Android-login-MVVM-pattern/blob/main/screenshots/3.jpg) ![](https://github.com/karthikraja66/Android-login-MVVM-pattern/blob/main/screenshots/4.jpg) ![](https://github.com/karthikraja66/Android-login-MVVM-pattern/blob/main/screenshots/5.jpg)
